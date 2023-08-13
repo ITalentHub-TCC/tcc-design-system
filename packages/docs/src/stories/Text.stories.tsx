@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@tcc/react'
+import { Text, TextProps } from '@fatec-tcc/react'
 
 export default {
   title: 'Typography/Text',

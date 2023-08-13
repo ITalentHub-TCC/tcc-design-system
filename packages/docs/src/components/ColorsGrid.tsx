@@ -1,4 +1,4 @@
-import { colors } from '@tcc/tokens'
+import { colors } from '@fatec-tcc/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

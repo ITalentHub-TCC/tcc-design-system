@@ -1,5 +1,5 @@
 {
-  "extends": "@tcc/ts-config/react.json",
+  "extends": "@fatec-tcc/ts-config/react.json",
   "include": [
     "src"
   ]

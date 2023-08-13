@@ -1,4 +1,4 @@
-import { Box, Text, TextInput, TextInputProps } from '@tcc/react'
+import { Box, Text, TextInput, TextInputProps } from '@fatec-tcc/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

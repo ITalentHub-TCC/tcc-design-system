@@ -1,4 +1,4 @@
-import { Box, MultiStep, MultiStepProps } from '@tcc/react'
+import { Box, MultiStep, MultiStepProps } from '@fatec-tcc/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

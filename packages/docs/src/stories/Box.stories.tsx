@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from '@tcc/react'
+import { Box, BoxProps, Text } from '@fatec-tcc/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

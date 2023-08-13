@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from '@tcc/react'
+import { Avatar, AvatarProps } from '@fatec-tcc/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
