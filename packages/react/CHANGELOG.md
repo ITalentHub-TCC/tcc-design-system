@@ -1,5 +1,11 @@
 # @fatec-tcc/react
 
+## 5.0.0
+
+### Major Changes
+
+- add tooltip and toast component
+
 ## 4.0.0
 
 ### Major Changes

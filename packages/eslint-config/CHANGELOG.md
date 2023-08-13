@@ -1,5 +1,11 @@
 # @fatec-tcc/eslint-config
 
+## 4.0.0
+
+### Major Changes
+
+- add tooltip and toast component
+
 ## 3.0.0
 
 ### Major Changes
