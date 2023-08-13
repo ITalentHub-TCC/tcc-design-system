@@ -1,5 +1,11 @@
 # @fatec-tcc/react
 
+## 4.0.0
+
+### Major Changes
+
+- add optio to pass reference to TextInput and adjust some styles
+
 ## 3.0.0
 
 ### Major Changes
