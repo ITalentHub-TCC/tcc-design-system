@@ -1,13 +1,12 @@
 {
   "name": "@tcc/tokens",
   "version": "1.0.0",
-  "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.ts --format esm, cjs --dts",
+    "dev": "tsup src/index.ts --format esm, cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
@@ -16,7 +15,7 @@
   "devDependencies": {
     "@tcc/ts-config": "*",
     "@tcc/eslint-config": "*",
-    "tsup": "^6.2.3",
-    "typescript": "^4.8.4"
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
   }
 }
