@@ -15,7 +15,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
-      config.base = "/tcc-system-design/";
+      config.base = "/ITalentHub-TCC/tcc-design-system/";
     }
 
     return config;
