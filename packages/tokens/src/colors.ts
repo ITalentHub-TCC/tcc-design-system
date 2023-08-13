@@ -15,4 +15,6 @@ export const colors = {
   tcc500: '#00875F',
   tcc700: '#015F43',
   tcc900: '#00291D',
+
+  test: '#fff',
 }
