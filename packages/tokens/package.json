@@ -1,6 +1,6 @@
 {
-  "name": "@tcc/tokens",
-  "version": "1.0.0",
+  "name": "@fatec-tcc/tokens",
+  "version": "4.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -13,8 +13,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@tcc/ts-config": "*",
-    "@tcc/eslint-config": "*",
+    "@fatec-tcc/ts-config": "*",
+    "@fatec-tcc/eslint-config": "*",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   }

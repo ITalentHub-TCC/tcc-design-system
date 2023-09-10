@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@tcc/react'
+import { Heading, HeadingProps } from '@fatec-tcc/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

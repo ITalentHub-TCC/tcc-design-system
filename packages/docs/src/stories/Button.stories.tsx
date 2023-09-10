@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@tcc/react'
+import { Button, ButtonProps } from '@fatec-tcc/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 import { ArrowRight } from 'phosphor-react'

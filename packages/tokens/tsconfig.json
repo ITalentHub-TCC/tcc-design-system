@@ -1,5 +1,5 @@
 {
-  "extends": "@tcc/ts-config/base.json",
+  "extends": "@fatec-tcc/ts-config/base.json",
   "include": [
     "src"
   ],

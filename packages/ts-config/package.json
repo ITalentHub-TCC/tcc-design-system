@@ -1,6 +1,6 @@
 {
-  "name": "@tcc/ts-config",
-  "version": "1.0.0",
+  "name": "@fatec-tcc/ts-config",
+  "version": "4.0.0",
   "license": "MIT",
   "private": true
 }

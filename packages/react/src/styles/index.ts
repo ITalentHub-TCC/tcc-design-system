@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@tcc/tokens'
+} from '@fatec-tcc/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
