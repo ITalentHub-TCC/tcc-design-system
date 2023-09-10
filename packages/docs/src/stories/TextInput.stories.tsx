@@ -4,8 +4,9 @@ import type { Meta, StoryObj } from '@storybook/react'
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  args: {},
-
+  args: {
+    variant: 'blue',
+  },
   argTypes: {
     variant: {
       options: ['salmon', 'blue', 'green', 'yellow', 'purple'],

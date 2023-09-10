@@ -4,7 +4,9 @@ import type { Meta, StoryObj } from '@storybook/react'
 export default {
   title: 'Form/Checkbox',
   component: Checkbox,
-  args: {},
+  args: {
+    variant: 'green',
+  },
   argTypes: {
     variant: {
       options: ['salmon', 'blue', 'green', 'yellow', 'purple'],

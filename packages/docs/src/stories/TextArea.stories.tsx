@@ -4,7 +4,9 @@ import type { Meta, StoryObj } from '@storybook/react'
 export default {
   title: 'Form/Text Area',
   component: TextArea,
-  args: {},
+  args: {
+    variant: 'green',
+  },
   decorators: [
     (Story) => {
       return (
