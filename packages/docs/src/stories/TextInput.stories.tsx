@@ -5,6 +5,16 @@ export default {
   title: 'Form/Text Input',
   component: TextInput,
   args: {},
+
+  argTypes: {
+    variant: {
+      options: ['salmon', 'blue', 'green', 'yellow', 'purple'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
+
   decorators: [
     (Story) => {
       return (
@@ -12,7 +22,7 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text size="sm">Email address</Text>
+          <Text size="sm">Endereço de E-mail</Text>
           {Story()}
         </Box>
       )
@@ -20,9 +30,9 @@ export default {
   ],
 } as Meta<TextInputProps>
 
-export const Primary: StoryObj<TextInputProps> = {
+export const Default: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Type your name',
+    placeholder: 'Escreva seu e-mail',
   },
 }
 
@@ -35,6 +45,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
-    placeholder: 'your-username',
+    placeholder: 'seu-usuário',
   },
 }

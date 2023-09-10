@@ -35,12 +35,11 @@ export const Button = styled('button', {
 
   variants: {
     variant: {
-      primary: {
+      salmon: {
         color: '$white',
-        background: '$tcc500',
-
+        background: '$salmon500',
         '&:not(:disabled):hover': {
-          background: '$tcc300',
+          background: '$salmon300',
         },
 
         '&:disabled': {
@@ -48,30 +47,52 @@ export const Button = styled('button', {
         },
       },
 
-      secondary: {
-        color: '$tcc300',
-        border: '2px solid $tcc500',
-
+      blue: {
+        color: '$white',
+        background: '$blue500',
         '&:not(:disabled):hover': {
-          background: '$tcc500',
-          color: '$white',
+          background: '$blue300',
         },
 
         '&:disabled': {
-          color: '$gray200',
-          borderColor: '$gray200',
+          backgroundColor: '$gray200',
         },
       },
 
-      tertiary: {
-        color: '$gray100',
-
+      purple: {
+        color: '$white',
+        background: '$purple500',
         '&:not(:disabled):hover': {
-          color: '$white',
+          background: '$purple300',
         },
 
         '&:disabled': {
-          color: '$gray600',
+          backgroundColor: '$gray200',
+        },
+      },
+
+      yellow: {
+        color: '$black',
+        background: '$yellow500',
+        '&:not(:disabled):hover': {
+          background: '$yellow300',
+        },
+
+        '&:disabled': {
+          backgroundColor: '$gray200',
+        },
+      },
+
+      green: {
+        color: '$white',
+        background: '$green500',
+
+        '&:not(:disabled):hover': {
+          background: '$green300',
+        },
+
+        '&:disabled': {
+          backgroundColor: '$gray200',
         },
       },
     },
@@ -88,7 +109,7 @@ export const Button = styled('button', {
   },
 
   defaultVariants: {
-    variant: 'primary',
+    variant: 'green',
     size: 'md',
   },
 })

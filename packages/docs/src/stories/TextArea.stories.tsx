@@ -12,17 +12,26 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text size="sm">Observations</Text>
+          <Text size="sm">Observações</Text>
           {Story()}
         </Box>
       )
     },
   ],
+
+  argTypes: {
+    variant: {
+      options: ['salmon', 'blue', 'green', 'yellow', 'purple'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } as Meta<TextAreaProps>
 
-export const Primary: StoryObj<TextAreaProps> = {
+export const Default: StoryObj<TextAreaProps> = {
   args: {
-    placeholder: 'Add any observations...',
+    placeholder: 'Adicione quaisquer observações...',
   },
 }
 

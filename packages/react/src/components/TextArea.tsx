@@ -17,7 +17,7 @@ export const TextArea = styled('textarea', {
 
   '&:focus': {
     outline: 0,
-    borderColor: '$tcc300',
+    borderColor: '$green300',
   },
 
   '&:disabled': {
@@ -27,6 +27,44 @@ export const TextArea = styled('textarea', {
 
   '&:placeholder': {
     color: '$gray400',
+  },
+
+  variants: {
+    variant: {
+      salmon: {
+        borderColor: '$salmon300',
+      },
+
+      blue: {
+        borderColor: '$blue300',
+      },
+
+      purple: {
+        borderColor: '$purple300',
+      },
+
+      yellow: {
+        borderColor: '$yellow300',
+      },
+
+      green: {
+        borderColor: '$green300',
+      },
+    },
+
+    size: {
+      sm: {
+        height: 38,
+      },
+
+      md: {
+        height: 46,
+      },
+    },
+  },
+
+  defaultVariants: {
+    variant: 'green',
   },
 })
 

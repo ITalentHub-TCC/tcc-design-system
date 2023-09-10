@@ -9,6 +9,38 @@ export const TextInputContainer = styled('div', {
   alignItems: 'center',
 
   variants: {
+    variant: {
+      salmon: {
+        '&:has(input:focus)': {
+          borderColor: '$salmon300',
+        },
+      },
+
+      blue: {
+        '&:has(input:focus)': {
+          borderColor: '$blue300',
+        },
+      },
+
+      purple: {
+        '&:has(input:focus)': {
+          borderColor: '$purple300',
+        },
+      },
+
+      yellow: {
+        '&:has(input:focus)': {
+          borderColor: '$yellow300',
+        },
+      },
+
+      green: {
+        '&:has(input:focus)': {
+          borderColor: '$green300',
+        },
+      },
+    },
+
     size: {
       sm: {
         padding: '$2 $3',
@@ -19,16 +51,13 @@ export const TextInputContainer = styled('div', {
     },
   },
 
-  '&:has(input:focus)': {
-    borderColor: '$tcc300',
-  },
-
   '&:has(input:disabled)': {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
 
   defaultVariants: {
+    variant: 'green',
     size: 'md',
   },
 })

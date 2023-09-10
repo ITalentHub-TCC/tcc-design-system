@@ -5,6 +5,14 @@ export default {
   title: 'Form/Checkbox',
   component: Checkbox,
   args: {},
+  argTypes: {
+    variant: {
+      options: ['salmon', 'blue', 'green', 'yellow', 'purple'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -20,4 +28,4 @@ export default {
   ],
 } as Meta<CheckboxProps>
 
-export const Primary: StoryObj<CheckboxProps> = {}
+export const Default: StoryObj<CheckboxProps> = {}

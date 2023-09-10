@@ -7,14 +7,14 @@ export default {
   title: 'Form/Button',
   component: Button,
   args: {
-    children: 'Send',
-    variant: 'primary',
+    children: 'Confirmar',
+    variant: 'green',
     size: 'md',
     disabled: false,
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ['salmon', 'blue', 'green', 'yellow', 'purple'],
       control: {
         type: 'inline-radio',
       },
@@ -34,21 +34,7 @@ export default {
   },
 } as Meta<ButtonProps>
 
-export const Primary: StoryObj<ButtonProps> = {}
-
-export const Secondary: StoryObj<ButtonProps> = {
-  args: {
-    variant: 'secondary',
-    children: 'Create new',
-  },
-}
-
-export const Tertiary: StoryObj<ButtonProps> = {
-  args: {
-    variant: 'tertiary',
-    children: 'Cancel',
-  },
-}
+export const Default: StoryObj<ButtonProps> = {}
 
 export const Small: StoryObj<ButtonProps> = {
   args: {

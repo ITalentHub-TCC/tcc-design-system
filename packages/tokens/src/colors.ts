@@ -11,8 +11,23 @@ export const colors = {
   gray800: '#202024',
   gray900: '#121214',
 
-  tcc300: '#00B37E',
-  tcc500: '#00875F',
-  tcc700: '#015F43',
-  tcc900: '#00291D',
+  green300: '#00B37E',
+  green500: '#00875F',
+  green600: '#015F43',
+  // tcc900: '#00291D',
+
+  salmon300: '#f35e5e',
+  salmon500: '#EC4949',
+  salmon600: '#A95050',
+
+  blue300: '#214295',
+  blue500: '#14327D',
+  blue600: '#324C8E',
+
+  purple300: '#5c30b5',
+  purple500: '#4A1DA5',
+  purple600: '#694DB5',
+
+  yellow300: '#ebb938',
+  yellow500: '#FFB905',
 }
