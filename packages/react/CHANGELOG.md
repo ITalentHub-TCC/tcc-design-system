@@ -1,5 +1,11 @@
 # @fatec-tcc/react
 
+## 6.0.0
+
+### Major Changes
+
+- added new colors on token and variants of theme in the components
+
 ## 5.0.0
 
 ### Major Changes

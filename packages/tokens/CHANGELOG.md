@@ -1,5 +1,11 @@
 # @fatec-tcc/tokens
 
+## 5.0.0
+
+### Major Changes
+
+- added new colors on token and variants of theme in the components
+
 ## 4.0.0
 
 ### Major Changes
