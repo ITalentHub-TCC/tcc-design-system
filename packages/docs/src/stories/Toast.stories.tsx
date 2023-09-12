@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { useEffect, useRef, useState } from 'react'
 
 const DemoToast = (props: ToastProps) => {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(true)
 
   const timerRef = useRef(0)
 
@@ -35,6 +35,15 @@ export default {
   args: {
     title: 'Agendamento realizado',
     description: 'Quarta-feira, 23 de Outubro às 16h',
+  },
+
+  argTypes: {
+    variant: {
+      options: ['salmon', 'blue', 'green', 'yellow', 'purple'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 } as Meta<ToastProps>
 

@@ -21,11 +21,38 @@ const swipeOut = keyframes({
 
 export const ToastRoot = styled(Toast.Root, {
   padding: '$3 $4',
-  background: '$gray800',
   border: '1px solid $gray600',
   borderRadius: '$sm',
   fontFamily: '$default',
   position: 'relative',
+
+  variants: {
+    variant: {
+      salmon: {
+        background: '$salmon600',
+      },
+
+      blue: {
+        background: '$blue600',
+      },
+
+      purple: {
+        background: '$purple600',
+      },
+
+      yellow: {
+        background: '$black',
+      },
+
+      green: {
+        background: '$green600',
+      },
+    },
+  },
+
+  defaultVariants: {
+    variant: 'green',
+  },
 
   '@media (prefers-reduced-motion: no-preference)': {
     '&[data-state="open"]': {
