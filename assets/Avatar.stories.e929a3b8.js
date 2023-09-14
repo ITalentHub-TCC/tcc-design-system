@@ -1,0 +1,2 @@
+import{A as t}from"./index.637cb825.js";import"./index.442b826c.js";import"./iframe.a53af579.js";import"./index.8b9e9acf.js";import"./jsx-runtime.6ecaf30c.js";const i={title:"Data display/Avatar",component:t,args:{src:"https://github.com/RaquelAlbuquerque1.png",alt:"Raquel Albuquerque"},argTypes:{src:{control:{type:"text"}}}},l={},p={args:{src:void 0}},c=["Primary","WithFallback"];export{l as Primary,p as WithFallback,c as __namedExportsOrder,i as default};
+//# sourceMappingURL=Avatar.stories.e929a3b8.js.map
