@@ -1,5 +1,11 @@
 # @fatec-tcc/react
 
+## 7.0.0
+
+### Major Changes
+
+- 498f7bb: add variants on focus to text input
+
 ## 6.0.0
 
 ### Major Changes

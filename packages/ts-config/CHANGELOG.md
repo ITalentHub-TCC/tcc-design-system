@@ -1,5 +1,11 @@
 # @fatec-tcc/ts-config
 
+## 6.0.0
+
+### Major Changes
+
+- 498f7bb: add variants on focus to text input
+
 ## 5.0.0
 
 ### Major Changes
